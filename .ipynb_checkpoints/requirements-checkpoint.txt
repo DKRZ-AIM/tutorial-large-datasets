@@ -1,5 +1,0 @@
-lightning==2.4.0
-ipykernel
-pandas==2.2.2
-scikit-learn==1.5.1
-tensorflow==2.17.0
