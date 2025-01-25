@@ -3,3 +3,8 @@ ipykernel
 pandas==2.2.2
 scikit-learn==1.5.1
 tensorflow==2.17.0
+cfgrib
+dask
+cftime
+xarray
+zarr==2.18.2

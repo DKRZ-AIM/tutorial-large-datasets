@@ -8,13 +8,15 @@ Data can easily exceed memory, and we cannot load it all at once. Training a mac
 - [x] Tensorflow
 - [x] Keras
 
+In addition, we demonstrate how efficient data loading can be achieved with zarr data stores. We show how the data needs to be preprocessed and saved on disk in such a way that random access of small chunks of data during training is fast.
+
 ## Install
 
 Create a virtual environment
 
 ```
 module load python3
-python3 -m venv --system-site-packages .venv
+python3 -m venv .venv
 ```
 
 Install the machine learning packages via pip
